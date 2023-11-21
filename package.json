@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint .",
+    "lint": "next lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "pre-commit": "lint-staged",
     "prepare": "husky install"
@@ -38,9 +38,6 @@
   },
   "lint-staged": {
     "src/**/*.{js,ts,jsx,tsx}": [
-      "eslint --fix"
-    ],
-    "packages/ui/*.{ts,tsx}": [
       "eslint --fix"
     ],
     "*.json": [
