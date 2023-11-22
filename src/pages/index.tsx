@@ -4,7 +4,7 @@ import BannerSection from '../components/BannerSection';
 
 export default function Home() {
   return (
-    <main className=" min-h-screen flex-col items-center justify-between ">
+    <main className="min-h-screen overflow-hidden">
       <Head>
         <meta charSet="utf-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
