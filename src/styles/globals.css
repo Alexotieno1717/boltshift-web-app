@@ -5,3 +5,16 @@
 body {
   background: var(--base-white, #fff);
 }
+
+.truncate-3-lines {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 3;
+}
+
+#banner-bg {
+  border-radius: var(--spacing-system-guides-corner-radius-3, 12px);
+  border: 1px solid var(--gray-200, #eaecf0);
+  background: var(--gradient-linear-color-20, linear-gradient(45deg, #e9defa 0%, #fff6eb 100%));
+}
