@@ -13,6 +13,13 @@ body {
   -webkit-line-clamp: 3;
 }
 
+.truncate-1-lines {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 1;
+}
+
 #banner-bg {
   border-radius: var(--spacing-system-guides-corner-radius-3, 12px);
   border: 1px solid var(--gray-200, #eaecf0);
