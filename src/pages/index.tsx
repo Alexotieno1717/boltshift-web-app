@@ -3,6 +3,7 @@ import Header from '../components/navigation/Header';
 import BannerSection from '../components/BannerSection';
 import PopularCategory from '../components/PopularCategory';
 import HotDeals from '../components/HotDeals';
+import FeaturedPorducts from '../components/FeaturedPorducts';
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <BannerSection />
       <PopularCategory />
       <HotDeals />
+      <FeaturedPorducts />
     </main>
   );
 }
