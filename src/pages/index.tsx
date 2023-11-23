@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Header from '../components/navigation/Header';
 import BannerSection from '../components/BannerSection';
+import PopularCategory from '../components/PopularCategory';
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       </Head>
       <Header />
       <BannerSection />
+      <PopularCategory />
     </main>
   );
 }
