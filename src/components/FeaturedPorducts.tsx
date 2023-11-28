@@ -200,6 +200,10 @@ function FeaturedPorducts() {
           </div>
         </div>
       </div>
+
+      {/* {products.slice(0, 3).map((product, index) => (
+        <HotDealsCard key={index} product={product} />
+      ))} */}
     </div>
   );
 }
